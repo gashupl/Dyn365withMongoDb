@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{5894461C-AD5B-4EC6-950B-3DB78B69AAD7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{87D358D1-2A94-4122-890F-D54EF345FCD3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{A2D8D115-02DD-4042-815A-8E4210179D23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonkeyShock.Dyn365.Entities", "App\Common\MonkeyShock.Dyn365.Entities\MonkeyShock.Dyn365.Entities.csproj", "{711EAD73-BC10-4950-B7D2-694D28C4FB7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonkeyShock.Dyn365.DataAccess", "App\Common\MonkeyShock.Dyn365.DataAccess\MonkeyShock.Dyn365.DataAccess.csproj", "{1C7BBB3A-C932-4624-9B58-B6CAC751D2F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonkeyShock.Dyn365.Utilities", "App\Common\MonkeyShock.Dyn365.Utilities\MonkeyShock.Dyn365.Utilities.csproj", "{2E1B7EBA-4C2C-41AA-A3DE-08492AB81F36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OrganizationMigration", "OrganizationMigration", "{7705ABD0-C1C5-4A17-8C07-90FB6F3B46D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonkeyShock.Dyn365.DataExport", "App\Tools\OrganizationMigration\MonkeyShock.Dyn365.DataExport\MonkeyShock.Dyn365.DataExport.csproj", "{3F9F5FBD-D806-4CAF-BF54-AFE19AA3AAD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonkeyShock.DocumentDb.DataAccess", "App\Tools\OrganizationMigration\MonkeyShock.DocumentDb.DataAccess\MonkeyShock.DocumentDb.DataAccess.csproj", "{E7FBB283-1732-4CCB-9268-0D3C52FCBA69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonkeyShock.Dyn365.DataImport", "App\Tools\OrganizationMigration\MonkeyShock.Dyn365.DataImport\MonkeyShock.Dyn365.DataImport.csproj", "{4E778EFD-28E0-4E99-97FF-D1F34D1C8AEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{711EAD73-BC10-4950-B7D2-694D28C4FB7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{711EAD73-BC10-4950-B7D2-694D28C4FB7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{711EAD73-BC10-4950-B7D2-694D28C4FB7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{711EAD73-BC10-4950-B7D2-694D28C4FB7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C7BBB3A-C932-4624-9B58-B6CAC751D2F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C7BBB3A-C932-4624-9B58-B6CAC751D2F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C7BBB3A-C932-4624-9B58-B6CAC751D2F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C7BBB3A-C932-4624-9B58-B6CAC751D2F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E1B7EBA-4C2C-41AA-A3DE-08492AB81F36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E1B7EBA-4C2C-41AA-A3DE-08492AB81F36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E1B7EBA-4C2C-41AA-A3DE-08492AB81F36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E1B7EBA-4C2C-41AA-A3DE-08492AB81F36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F9F5FBD-D806-4CAF-BF54-AFE19AA3AAD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F9F5FBD-D806-4CAF-BF54-AFE19AA3AAD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F9F5FBD-D806-4CAF-BF54-AFE19AA3AAD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F9F5FBD-D806-4CAF-BF54-AFE19AA3AAD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7FBB283-1732-4CCB-9268-0D3C52FCBA69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7FBB283-1732-4CCB-9268-0D3C52FCBA69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7FBB283-1732-4CCB-9268-0D3C52FCBA69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7FBB283-1732-4CCB-9268-0D3C52FCBA69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E778EFD-28E0-4E99-97FF-D1F34D1C8AEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E778EFD-28E0-4E99-97FF-D1F34D1C8AEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E778EFD-28E0-4E99-97FF-D1F34D1C8AEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E778EFD-28E0-4E99-97FF-D1F34D1C8AEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{87D358D1-2A94-4122-890F-D54EF345FCD3} = {5894461C-AD5B-4EC6-950B-3DB78B69AAD7}
+		{A2D8D115-02DD-4042-815A-8E4210179D23} = {5894461C-AD5B-4EC6-950B-3DB78B69AAD7}
+		{711EAD73-BC10-4950-B7D2-694D28C4FB7B} = {A2D8D115-02DD-4042-815A-8E4210179D23}
+		{1C7BBB3A-C932-4624-9B58-B6CAC751D2F0} = {A2D8D115-02DD-4042-815A-8E4210179D23}
+		{2E1B7EBA-4C2C-41AA-A3DE-08492AB81F36} = {A2D8D115-02DD-4042-815A-8E4210179D23}
+		{7705ABD0-C1C5-4A17-8C07-90FB6F3B46D9} = {87D358D1-2A94-4122-890F-D54EF345FCD3}
+		{3F9F5FBD-D806-4CAF-BF54-AFE19AA3AAD1} = {7705ABD0-C1C5-4A17-8C07-90FB6F3B46D9}
+		{E7FBB283-1732-4CCB-9268-0D3C52FCBA69} = {7705ABD0-C1C5-4A17-8C07-90FB6F3B46D9}
+		{4E778EFD-28E0-4E99-97FF-D1F34D1C8AEB} = {7705ABD0-C1C5-4A17-8C07-90FB6F3B46D9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB216D85-90BC-491F-A26A-01A358D67AA0}
+	EndGlobalSection
+EndGlobal
